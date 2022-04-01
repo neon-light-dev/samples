@@ -236,6 +236,14 @@ ul {
   margin: 0 0 0.5em 0;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex > div {
+  width: 50%;
+}
+
 @media screen and (max-width: 650px) {
   .highlight {
     font-size: 1em;
